@@ -88,7 +88,7 @@ def find_student_by_id():
     if student:
         print(student)
     else:
-        print(f"No student found with the ID '{student_id}'.")
+        print(f"Error, No student found with the ID '{student_id}'.")
 
 def create_student():
     name = input("Enter student name: ")
