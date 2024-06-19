@@ -8,11 +8,11 @@ def seed_departments(session):
     Department.create(session, "Chemistry", "Annex")
 
 def seed_students(session):
-    Student.create(session, "Levis", 20, "Male", "levisrabah@gmail.com", "07895454")
-    Student.create(session, "Janet Rafiki", 22, "Female", "jane@gmail.com", "07897654")
-    Student.create(session, "Meshack Kipchirchir", 19, "Male", "chirchir@gmail.com", "078934213")
-    Student.create(session, "Samuel Waweru", 21, "Male", "swaweru@gmail.com", "07324567")
-    Student.create(session, "Stayce Tracy", 23, "Female", "tracy@example.com", "0745123456")
+    Student.create(session, "Alpha Matara", 20, "Male", "Alphamisma@gmail.com", "07895454")
+    Student.create(session, "Simpson Rafiki", 22, "Female", "rafikisimpson@gmail.com", "07897654")
+    Student.create(session, "Drake Kipchirchir", 19, "Male", "chirchirdrake@gmail.com", "078934213")
+    Student.create(session, "Samuel Kamau", 21, "Male", "skamau@gmail.com", "07324567")
+    Student.create(session, "Fred Tracy", 23, "Female", "tracy@example.com", "0745123456")
 
 def seed_teachers(session):
     computer_science_dept = Department.find_by_name(session, "Computer")
