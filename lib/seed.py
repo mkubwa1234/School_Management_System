@@ -17,6 +17,7 @@ def seed_students(session):
 def seed_teachers(session):
     computer_science_dept = Department.find_by_name(session, "Computer")
     mathematics_dept = Department.find_by_name(session, "Mathematics")
+    english_dept = Department.find_by_name(session, "English")
     history_dept = Department.find_by_name(session, "History")
     chemistry_dept = Department.find_by_name(session, "Chemistry")
 
