@@ -23,7 +23,7 @@ def seed_teachers(session):
 
     Teacher.create(session, "Kevin Mkali", "Programming", computer_science_dept.id)
     Teacher.create(session, "Martial Munene", "Algorithms", computer_science_dept.id)
-    Teacher.create(session, "Wyclif Bazuu", "MatricesS", mathematics_dept.id)
+    Teacher.create(session, "Wyclif Bazuu", "Matrices", mathematics_dept.id)
     Teacher.create(session, "Juddie Juliana", "Literature", english_dept.id)
     Teacher.create(session, "Frank Faulu", "World History", history_dept.id)
     Teacher.create(session, "Grace Gikonyo", "Organic Chemistry", chemistry_dept.id)
