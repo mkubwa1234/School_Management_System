@@ -1,7 +1,7 @@
 from models import Department, Student, Teacher, Session
 
 def seed_departments(session):
-    Department.create(session, "Computer", "Annex A")
+    Department.create(session, "Computer", "Alexa Hall")
     Department.create(session, "Mathematics", "Gurus Hall")
     Department.create(session, "English", "Dreamland Hall")
     Department.create(session, "History", "Moi Hall")
