@@ -80,7 +80,7 @@ def find_student_by_name():
     if student:
         print(student)
     else:
-        print(f"No student found with the name '{name}'.")
+        print(f"Error,No student found with the name '{name}'.")
 
 def find_student_by_id():
     student_id = int(input("Enter student ID: "))
