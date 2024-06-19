@@ -200,7 +200,7 @@ def update_teacher():
         if department:
             teacher.department = department
         teacher.update()
-        print(f"Teacher updated: {teacher}")
+        print(f"The Teacher is updated: {teacher}")
     else:
         print(f"No teacher found with the ID '{teacher_id}'.")
 
