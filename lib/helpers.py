@@ -131,7 +131,7 @@ def update_student():
         student.update()
         print(f"Student updated: {student}")
     else:
-        print(f"No student found with the ID '{student_id}'.")
+        print(f"Error, No student found with the ID '{student_id}'.")
 
 def delete_student():
     student_id = int(input("Enter student ID: "))
