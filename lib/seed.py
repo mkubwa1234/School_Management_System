@@ -5,7 +5,7 @@ def seed_departments(session):
     Department.create(session, "Mathematics", "Gurus Hall")
     Department.create(session, "English", "Dreams Hall")
     Department.create(session, "History", "Moi Hall")
-    Department.create(session, "Chemistry", "Annex")
+    Department.create(session, "Chemistry", "Anita Hall")
 
 def seed_students(session):
     Student.create(session, "Alpha Matara", 20, "Male", "Alphamisma@gmail.com", "07895454")
