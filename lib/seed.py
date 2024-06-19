@@ -4,7 +4,7 @@ def seed_departments(session):
     Department.create(session, "Computer", "Annex A")
     Department.create(session, "Mathematics", "Gurus Hall")
     Department.create(session, "English", "Dreams Hall")
-    Department.create(session, "History", "Wazito Hall")
+    Department.create(session, "History", "Moi Hall")
     Department.create(session, "Chemistry", "Annex")
 
 def seed_students(session):
