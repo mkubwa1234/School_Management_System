@@ -3,7 +3,7 @@ from models.student import Student
 from models.teacher import Teacher
 
 def exit_program():
-    print("Welcome Again! 🙋️")
+    print("Welcome Back! 🙋️")
     exit()
 
 # Functions for Department model
